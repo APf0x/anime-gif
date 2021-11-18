@@ -37,7 +37,7 @@ if you're on linux, ubuntu specifically i can help you, you just have to do the 
 
 # how do i play these gifs offline
 
-
+i will eventually explain how to do it for now.
 
 
 ## Features
