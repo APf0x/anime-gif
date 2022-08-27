@@ -46,7 +46,7 @@ you get some cool gifs and you dont get depressed.
 i think it's a win win
 <!-- \!\[feature X\]\(images/feature-x.png\) -->
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+> Tip: dont install it it doesnt work anymore.
 
 ## Requirements
 
