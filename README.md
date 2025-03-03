@@ -1,89 +1,71 @@
 # anime-gif README
 
-Ok so you better read this because it is not going to work if you dont.
-
-Basically this is a anime-gif window that plays gifs while youre working on your projects.
-So you may be asking yourself why is it not working if it does not work?
-So basically to avoid any copyright (i dont want to risk it) i didnt put any gifs inside of the svelte script so i can avoid any copyright claims so you will have to do it by yourself.
-and i forgot to add that you cannot play gifs if not online.
-
-**i will give a answer to all of these problems in this documentation**
-
-## why?
-
-why not?
-
-# how do i add more gifs
-
-basically if you're on a windows macchine, **you're on your own**, because i dont want to boot in my windows macchine and find a way to import those gifs.
-
-if you're on linux, ubuntu specifically i can help you, you just have to do the the next actions.
-
-## if you're on any linux macchine (ubuntu precisely)
-
-1) open your terminal
-2) goto `cd .vscode/extensions`
-3) type `ls`
-4) somewere you should find a folder named anime-gif so you just copy the directory and get in it it should be `cd anime-gif`
-5) once you're in anime-gif you will have to get in `cd webviews/components` and type `ls`
-6) ok so you finaly made it at this point you ignore the `helloworld.svelte` file since it is not used/usless so you just gotta type in `nano sidebar.svelte` 
-7) at this point you goto line `2` and insert any link you want
-8) if at this point you need any further help (fucking impossible) feel free to contact me on discord (my info will be on the last paragraph).
-
-## if you're on windows 
-
-1) i told you you're on your own
-
-
-# how do i play these gifs offline
-
-i will eventually explain how to do it for now.
-
+This is the README for your extension "anime-gif". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 
-you get some cool gifs and you dont get depressed.
-i think it's a win win
-<!-- \!\[feature X\]\(images/feature-x.png\) -->
+Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 
-> Tip: dont install it it doesnt work anymore.
+For example if there is an image subfolder under your extension project workspace:
+
+\!\[feature X\]\(images/feature-x.png\)
+
+> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
 ## Requirements
 
-oh ﾁㄩ⼕长 i hope i put every single requirement in that json file if i were to write all of those requirements i would get into something called e̴̢̼͉͒͒̾x̵̫͖͛͋̈́i̴̟͔̘͊͌̐s̸̙̟̽̾̒t̴͉͕͆̒͝e̵͉̠̠͒̔̕n̴̡̡̪̿̕̕t̴͓̙̐́͝ì̸͙͇̫͝͝a̴̻̺̫̿͑̚l̴͇͕̀͑͌ c̴̼͍̐͛̕r̴̪̠̈́͋̒i̸͖͚̞͆͘͘s̸̠̫̺͛̓̒i̵̡͇̙̕͘͝s̵͚̪̘̚͝ heheh
+If you have any requirements or dependencies, add a section describing those and how to install and configure them.
 
-# ok but i have an issue with this or a suggestion or a question not answered here
->open an issue, be nice
+## Extension Settings
 
-# Extension Settings
+Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
 
-## ok but why aren't there any settings i can change?!1?!!1
+For example:
 
-*free will is an illusion*
+This extension contributes the following settings:
+
+* `myExtension.enable`: Enable/disable this extension.
+* `myExtension.thing`: Set to `blah` to do something.
 
 ## Known Issues
-bruh
+
+Calling out known issues can help limit users opening duplicate issues against your extension.
 
 ## Release Notes
 
+Users appreciate release notes as you update your extension.
+
 ### 1.0.0
 
-Initial release of my extention
+Initial release of ...
 
 ### 1.0.1
 
-Fixed issue none
+Fixed issue #.
 
 ### 1.1.0
 
-Added features existential crisis
+Added features X, Y, and Z.
 
------------------------------------------------------------------------------------------------------------
+---
 
-# how do you contact me in in case of need?
-there are 2 ways to do that
-## first method.
-if you find any bug or have any problems you can go and open a issue on my github on tps://github.com/APf0x/ 
+## Following extension guidelines
 
-## second method.
-if you really don't know how github works of you think it is something that cannot be resolved via github then feel free to contact me on my discord `redfox#9140` good luck.
+Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+
+* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+
+## Working with Markdown
+
+You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+
+* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
+* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
+* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+
+## For more information
+
+* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+
+**Enjoy!**
