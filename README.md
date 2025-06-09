@@ -12,19 +12,16 @@ This is a simple web app that fetches and displays a random SFW (Safe For Work) 
   - `poke`
   - `dance`
   - `cringe`
+ 
+- so basically it has like a timer that takes in consideration the last time u typed something on the idee so it knows if youre idle or nah, and accordingly to what youre doing it displays diverse gifs, like when debugging and something else, i forgor
 
 ## Usage
 
-1. Open the HTML file in a web browser.
-2. Click the **"Surprise Me"** button.
-3. A random waifu-themed GIF will appear.
+sincerely microsoft has made it pretty hard to publish extentions and i dont really want to compile it and go trough the trouble to make it easly installable on vscode.
 
 ## Code Overview
 
-- `document.querySelector("#suprise-me")`: Button that triggers the action.
-- `genres`: Array of GIF categories.
-- `fetch(url)`: Gets a GIF from the waifu.pics API.
-- The resulting image is displayed in the element with ID `imgResult`.
+i am wrighting this right now a month after i wrote the code, i forgot
 
 ## Dependencies
 
@@ -32,3 +29,4 @@ This is a simple web app that fetches and displays a random SFW (Safe For Work) 
 
 ## Example API Call
 
+i will add an example manybe later.
